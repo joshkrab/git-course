@@ -1,0 +1,31 @@
+GUI - graphical user interface
+CLI - command-line interface
+
+pwd - посмотреть в какой мы папке
+explorer . - открыть текущую папку в проводнике
+ls - посмотреть список файлов в текущей директории 
+cd f: - перейти на диск F
+
+Можно стрелко вверх листать уже введенные команды
+
+mkdir test - создать директорию тест
+cd test - follow to dir test
+clear или Ctrl+L - условная очистка, перемотка до последней строчки
+touch 1.txt - create file
+cd .. - one level up
+cd ../../ - two levels up
+echo test > 1.txt - записать слово тест в файл 1.тхт
+
+cp 1.txt 3.txt - создать копию файла 1 с названием 3
+mv 1.txt innerfolder - перенести файл в папку
+rm 3.txt - удалить файл 3
+rm -rf innerfolder - удалить папку, -rf(remove force) т.к. в папке есть файлы, то без -rf не удалиться
+
+
+
+
+
+
+
+
+

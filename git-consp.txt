@@ -1,0 +1,93 @@
+Основные команды GIT:
+
+git init - инициализировать данную папку
+git status - Посмотреть статус, в какой ветке находимся,
+Ветка - версия вашего проекта
+git add file
+git add . - добавить все файлы (После каких либо изменений в файле их надо добавлять)
+git rm --cached file - перестать следить за данным файлом, но не удаляет
+
+commit - фикс версии, чтобы потом с этим работать
+git commit -m "first commit" - создание комита
+git branch - посмотреть текущую ветку
+git branch -a - посмотреть все ветки - потім вихід q
+git branch test - Создать новую ветку с названием test
+git branch -D test - Удалить ветку
+git branch -M main - переименовать ветку в main
+git checkout readme - переключится на ветку
+git checkout -b new - переключится на новую ветку (и создает ее)
+git merge readme - совместить ветку ридми с текущей (мастер)
+git merge readme master - перенесе коміти з мастера в рідмі
+
+- Після команди merge, git створює новий коміт злиття обох гілок в гілці в яку мерджимо зміни
+
+git rebase master - вставить коміти з гілки мастер в поточну гілку, але вставить їх до усіх наших комітів поточної гілкі
+- Це створить красиву історію комітів, без перехресть як карта метро :)
+- І не буде мердж комітів, як би зайвих
+- рібейс рекомендується якщо один розробник працює на гілці, а не декілька
+- щоб запушити гілку після рібейсу може знадобиться форс пуш: git push origin readme --force або git push origin +readme
+
+git config --global user.name - посмотреть юзер нейм
+git config --global user.name "Joshik" - изменить имя
+git config --global user.email - аналогично для почты
+
+git remote add origin https://github.com/joshkrab/GIT-test-personal.git - копируем эту команду с гитхаба 
+и вставляем в консоль, чтобы подключить репозиторий гитхаба.
+
+git remote -v - посмотреть текущий удаленный репозиторий
+git remote set-url origin https://github.com/username/repo2.git - изменить адресс удаленного репозитория
+
+git push -u origin master - запушить мастер ветку на гитхаб. (-u - upstream)
+git push --set-upstream origin hw05 - запушить новую ветку (хз не пробовал)
+
+После каких-либо изменений - опять добавлять файл, потом создавать новый комит, и потом просто комнада:
+git push
+
+git pull - Забрать последние изменения с сервера
+
+git clone myURL - клонировать репозиторий с гитхаба
+
+Добавлять изменения в удаленный репозиторий:
+git add . - добавит все файлы в буфер
+git commit -m "next commit" - создаст фиксацию изменений
+git push - зальет на гитхаб, отправка
+
+Версия для ленивых:
+git commit -a -m "next commit"
+git push
+
+Просмотр и отмена:
+git diff - покажет различие между репо и рабочей папкой
+git diff --staged - различие между репо и буффером
+
+git log - список коммитов
+git log -p -2 - разница между последними двумя комитами
+
+
+Подсказки с ГитХАБА:
+
+…or create a new repository on the command line
+
+echo "# markup-hw-04" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/joshkrab/markup-hw-04.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/joshkrab/markup-hw-04.git
+git branch -M main
+git push -u origin main
+
+Видалити файли тільки з репозиторію:
+git rm --cached file1.txt
+
+
+
+
+
+
