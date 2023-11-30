@@ -86,6 +86,13 @@ git push -u origin main
 Видалити файли тільки з репозиторію:
 git rm --cached file1.txt
 
+When i do merge dev, git ask to add a commit message:
+If you're using Vim:
+
+Press i to enter insert mode.
+Write your commit message.
+Press Esc to exit insert mode.
+Type :wq and press Enter to save and exit.
 
 
 
