@@ -18,6 +18,7 @@ git checkout readme - переключится на ветку
 git checkout -b new - переключится на новую ветку (и создает ее)
 git merge readme - совместить ветку ридми с текущей (мастер)
 git merge readme master - перенесе коміти з мастера в рідмі
+git merge -m "Your merge commit message" <source-branch>
 
 - Після команди merge, git створює новий коміт злиття обох гілок в гілці в яку мерджимо зміни
 
