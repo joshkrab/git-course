@@ -95,6 +95,13 @@ Write your commit message.
 Press Esc to exit insert mode.
 Type :wq and press Enter to save and exit.
 
+----------------------------------------------------------------------------------------
+add build tag:
+1. git tag -d build
+2. git push --delete origin build - optionally
+3. git tag build (full tag: git tag -a v1.0 -m "Updated tag message")
+4. git push origin build
+
 
 
 
