@@ -102,6 +102,7 @@ add build tag:
 3. git tag build (full tag: git tag -a v1.0 -m "Updated tag message")
 4. git push origin build
 
+git merge -m "chore: merge development branch" development
 
 
 
