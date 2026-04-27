@@ -103,7 +103,7 @@ add build tag:
 4. git push origin build
 
 git merge -m "chore: merge development branch" development
-
+git fetch origin development - fetch development without checkout
 
 
 
