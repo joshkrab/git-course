@@ -16,6 +16,7 @@ git branch -D test - Удалить ветку
 git branch -M main - переименовать ветку в main
 git checkout readme - переключится на ветку
 git checkout -b new - переключится на новую ветку (и создает ее)
+git checkout -- . - відкатити всі зміни без коміта
 git merge readme - совместить ветку ридми с текущей (мастер)
 git merge readme master - перенесе коміти з мастера в рідмі
 git merge -m "Your merge commit message" <source-branch>
