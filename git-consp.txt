@@ -106,5 +106,7 @@ add build tag:
 git merge -m "chore: merge development branch" development
 git fetch origin development - fetch development without checkout
 
+git tag build-engine && git push origin build-engine  -  add tag and push tag
+
 
 
