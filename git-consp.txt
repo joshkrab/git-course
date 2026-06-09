@@ -108,5 +108,10 @@ git fetch origin development - fetch development without checkout
 
 git tag build-engine && git push origin build-engine  -  add tag and push tag
 
+- admin ozQ56syBq56SSC7H
+- support@novatalks.ai, !P@ssw0rd, support@novait.com.ua
+
+ngrok http --url=glad-mink-eminent.ngrok-free.app 3000
+
 
 
