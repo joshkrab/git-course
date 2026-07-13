@@ -115,4 +115,11 @@ ngrok http --url=glad-mink-eminent.ngrok-free.app 3000
 
 vue-devtools
 
-
+AWS_S3_ACCESS_KEY_ID=1cd0a3321cf74d8f74db39e541ed3b11 \
+AWS_S3_SECRET_ACCESS_KEY=6bb65612e73069bfc380c05e12a853c160a3d92f519a5c77ce54bceab788a87e \
+AWS_S3_BUCKET=lab-ihorn \
+AWS_S3_REGION=eeur \
+AWS_S3_ENDPOINT=https://a375fc0504ea7c8eb426bc8be3309543.r2.cloudflarestorage.com \
+AWS_S3_PUBLIC_URL=https://lab-ihorn.novatalks.xyz \
+AWS_S3_DIALER_BUCKET=dev-dialer-bucket \
+npm test
