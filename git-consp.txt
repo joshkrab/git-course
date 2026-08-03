@@ -123,3 +123,6 @@ AWS_S3_ENDPOINT=https://a375fc0504ea7c8eb426bc8be3309543.r2.cloudflarestorage.co
 AWS_S3_PUBLIC_URL=https://lab-ihorn.novatalks.xyz \
 AWS_S3_DIALER_BUCKET=dev-dialer-bucket \
 npm test
+
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
