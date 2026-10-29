@@ -124,5 +124,3 @@ AWS_S3_PUBLIC_URL=https://lab-ihorn.novatalks.xyz \
 AWS_S3_DIALER_BUCKET=dev-dialer-bucket \
 npm test
 
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
-CREATE EXTENSION IF NOT EXISTS pg_trgm;
